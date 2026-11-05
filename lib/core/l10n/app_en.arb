@@ -1,0 +1,304 @@
+{
+  "@@locale": "en",
+  "appTitle": "My Garden",
+  "navGarden": "Garden",
+  "navTrees": "Trees",
+  "navRecords": "Records",
+  "navSettings": "Settings",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "undo": "Undo",
+  "notSet": "Not set",
+  "treeCount": "{count, plural, =0{No trees} =1{1 tree} other{{count} trees}}",
+  "@treeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plotSize": "{width} × {length} m",
+  "@plotSize": {
+    "placeholders": {
+      "width": {
+        "type": "String"
+      },
+      "length": {
+        "type": "String"
+      }
+    }
+  },
+  "meterUnit": "m",
+  "kgValue": "{value} kg",
+  "@kgValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "currency": "UZS",
+  "moneyValue": "{value} UZS",
+  "@moneyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "daysToday": "today",
+  "daysYesterday": "yesterday",
+  "daysAgo": "{days, plural, =1{1 day ago} other{{days} days ago}}",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardGreenhouses": "Greenhouses",
+  "dashboardUpcoming": "Fruiting soon",
+  "dashboardUpcomingHint": "First fruit expected within 6 months",
+  "dashboardEmptyTitle": "Put your trees on the map",
+  "dashboardEmptyBody": "Open a greenhouse, pick a fruit on the right and tap the map where each tree stands.",
+  "homeFruitingNow": "Fruiting: {count}",
+  "@homeFruitingNow": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeLastCare": "Last care",
+  "homeNever": "not yet",
+  "homeThisYear": "This year",
+  "homeRecent": "Recent diary",
+  "weatherTitle": "Night temperature",
+  "weatherFrost": "Frost ahead!",
+  "weatherCold": "Cold nights ahead",
+  "weatherOk": "No frost expected",
+  "weatherAdvice": "Check the greenhouse heating and cover the bananas and papayas.",
+  "weatherRefresh": "Refresh",
+  "weatherOffline": "No forecast yet. Connect to the internet and pull down to refresh.",
+  "weatherOld": "Couldn't update; showing the last saved forecast.",
+  "mapPlant": "Plant",
+  "mapHint": "Tap a tree for actions · hold it to drag",
+  "mapPlantingHint": "Tap where each {fruit} stands",
+  "mapMoveHint": "Tap the new spot for {fruit}",
+  "@mapMoveHint": {
+    "placeholders": {
+      "fruit": {
+        "type": "String"
+      }
+    }
+  },
+  "@mapPlantingHint": {
+    "placeholders": {
+      "fruit": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStopPlanting": "Cancel",
+  "plotEdit": "Edit greenhouse",
+  "plotName": "Name",
+  "plotWidth": "Width, m",
+  "plotLength": "Length, m",
+  "plotLogWhole": "Whole greenhouse: {name}",
+  "@plotLogWhole": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "plotLogWholeShort": "Whole greenhouse",
+  "journalWatered": "Watered",
+  "journalFertilized": "Fertilized",
+  "journalSprayed": "Sprayed",
+  "journalPruned": "Pruned",
+  "journalFlowering": "Flowering",
+  "journalProblem": "Problem",
+  "journalNote": "Note",
+  "journalProductHint": "What with? (optional)",
+  "journalProblemHint": "What's wrong? (optional)",
+  "journalNoteHint": "Write a note",
+  "journalSaved": "Saved: {what}",
+  "@journalSaved": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      }
+    }
+  },
+  "photoSaved": "Photo saved",
+  "treeTitle": "{fruit} #{id}",
+  "@treeTitle": {
+    "placeholders": {
+      "fruit": {
+        "type": "String"
+      },
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "treeOpenCard": "Card",
+  "treeMove": "Move",
+  "treeLocation": "Greenhouse",
+  "treeStage": "Stage",
+  "stageSeedling": "Seedling",
+  "stageGrowing": "Growing",
+  "stageFlowering": "Flowering",
+  "stageFruiting": "Fruiting",
+  "treePlanted": "Planted",
+  "treeExpectedFruit": "Expected first fruit",
+  "treeTotalHarvest": "Harvested in total",
+  "fruitingNow": "Already fruiting",
+  "fruitingDue": "Any time now",
+  "fruitingIn": "{date} (in {months, plural, =1{1 month} other{{months} months}})",
+  "@fruitingIn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "fruitingNeedsDate": "Set the planting date to see this",
+  "treeVariety": "Variety",
+  "treeNotes": "Notes",
+  "treePhotos": "Photos",
+  "treeNoPhotos": "No photos yet",
+  "photoCamera": "Photo",
+  "photoGallery": "Gallery",
+  "treeDeleteTitle": "Delete this tree?",
+  "treeDeleteBody": "The tree, its diary and photos will be removed. Harvest records stay.",
+  "photoDeleteTitle": "Delete this photo?",
+  "treesEmpty": "No trees yet",
+  "timelineTitle": "Life story",
+  "timelineHint": "Hold an entry to delete it",
+  "timelineEmpty": "Nothing yet. Use the buttons at the top to log care.",
+  "timelineWholePlot": "whole greenhouse",
+  "timelinePhoto": "Photo",
+  "timelinePlanted": "Planted",
+  "recordsAdd": "Add",
+  "recordsIncome": "Income",
+  "recordsSpent": "Spent",
+  "recordsProfit": "Profit",
+  "recordsByFruit": "By fruit",
+  "recordsByCategory": "Spending by category",
+  "recordsHarvested": "harvested {kg}",
+  "@recordsHarvested": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    }
+  },
+  "recordsSold": "sold {kg}",
+  "@recordsSold": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    }
+  },
+  "recordsEntries": "Entries",
+  "recordsHarvest": "Harvest",
+  "recordsSales": "Sales",
+  "recordsExpenses": "Expenses",
+  "recordsEmpty": "Nothing here for this period",
+  "recordDeleteTitle": "Delete this entry?",
+  "periodMonth": "Month",
+  "periodYear": "Year",
+  "periodAll": "All time",
+  "harvestTitle": "Harvest",
+  "saleTitle": "Sale",
+  "expenseTitle": "Expense",
+  "fieldDate": "Date",
+  "fieldFruit": "Fruit",
+  "fieldKg": "Weight, kg",
+  "fieldPricePerKg": "Price per kg",
+  "fieldTotal": "Total",
+  "fieldAmount": "Amount",
+  "fieldBuyer": "Buyer",
+  "fieldNote": "Note",
+  "fieldCategory": "Category",
+  "fieldRequired": "Required",
+  "expenseFertilizer": "Fertilizer",
+  "expensePlants": "Seedlings & seeds",
+  "expenseHeating": "Heating (gas, coal, wood)",
+  "expenseUtilities": "Water & electricity",
+  "expenseGreenhouse": "Greenhouse (film, repairs)",
+  "expenseTools": "Tools",
+  "expensePestControl": "Pest control",
+  "expenseOther": "Other",
+  "settingsLanguage": "Language",
+  "settingsCity": "City (for weather)",
+  "settingsFruitTypes": "Fruit types",
+  "settingsFruitTypesHint": "Add new fruits or change their details",
+  "fruitTypeAdd": "Add fruit type",
+  "fruitTypeEdit": "Edit fruit type",
+  "fruitTypeNameEn": "Name in English",
+  "fruitTypeNameRu": "Name in Russian",
+  "fruitTypeNameMissing": "Fill in at least one name",
+  "fruitTypeEmoji": "Icon",
+  "fruitTypeMonths": "Months from planting to first fruit",
+  "fruitTypeMonthsShort": "First fruit after ~{months} mo.",
+  "@fruitTypeMonthsShort": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "fruitTypeInUse": "Can't delete: trees or records use this fruit.",
+  "diagnosisTitle": "Plant doctor",
+  "diagnosisAction": "Check health",
+  "diagnosisPhotoTip": "Take a close photo of the sick leaf, fruit or stem in daylight. One problem per photo works best.",
+  "diagnosisChangePhoto": "Retake photo",
+  "diagnosisQuestion": "What worries you?",
+  "diagnosisQuestionHint": "e.g. leaves turn yellow from the edges (optional)",
+  "diagnosisCheck": "Check",
+  "diagnosisSending": "Looking at the photo…",
+  "diagnosisSendingHint": "This usually takes up to a minute",
+  "diagnosisRetry": "Try again",
+  "diagnosisSaved": "Saved to the tree's life story",
+  "diagnosisDone": "Done",
+  "diagnosisDemoBanner": "Demo mode: the real AI is not connected yet, so answers are examples.",
+  "diagnosisDemoTag": "DEMO",
+  "diagnosisHealthy": "The plant looks healthy",
+  "urgencyLow": "Not urgent",
+  "urgencyMedium": "Deal with it in the next few days",
+  "urgencyHigh": "Urgent!",
+  "diagnosisConfidence": "{percent}%",
+  "@diagnosisConfidence": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosisWhatToDo": "What to do",
+  "diagnosisTips": "Care tips",
+  "diagnosisDisclaimer": "This is AI advice and can be wrong. If the problem is serious or spreading, show the plant to an agronomist.",
+  "errorNoConnection": "No internet. Check the connection and try again.",
+  "errorTimeout": "The server is taking too long. Please try again.",
+  "errorUnauthorized": "The server refused access. The app needs to be updated.",
+  "errorRateLimited": "Too many checks today. Please try again later.",
+  "errorImageUnclear": "The photo isn't clear enough. Take it closer and in good light.",
+  "errorServer": "The AI service isn't available right now. Please try again later. ({details})",
+  "@errorServer": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "errorInvalidResponse": "The server sent an answer the app doesn't understand.",
+  "errorUnknown": "Something went wrong. Please try again."
+}
